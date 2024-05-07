@@ -30,12 +30,12 @@ git clone https://github.com/DukaSiqueira/marvel.git
 
 2. Acesse o repositório
 ```cmd
-cd backend
+cd marvel
 ```
 
 3. Acesse o repositório
 ```cmd
-cd marvel
+cd backend
 ```
 
 4. Instale as dependências do projeto
