@@ -30,21 +30,26 @@ git clone https://github.com/DukaSiqueira/marvel.git
 
 2. Acesse o repositório
 ```cmd
+cd backend
+```
+
+3. Acesse o repositório
+```cmd
 cd marvel
 ```
 
-3. Instale as dependências do projeto
+4. Instale as dependências do projeto
 
 ```js
 npm install
 ```
 
-4. Inicie o ambiente Docker-compose:
+5. Inicie o ambiente Docker-compose:
 ```docker
 docker-compose up ou docker-compose up -d para rodar em nodemon
 ```
 
-5. Reinicie o serviço Node:
+6. Reinicie o serviço Node:
 Isso garante que a conexão entre a aplicação e o banco de dados ocorra de forma correta.
 ```docker
 docker restart app
