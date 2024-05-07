@@ -44,12 +44,17 @@ cd backend
 npm install
 ```
 
-5. Inicie o ambiente Docker-compose:
+5. Volte a pasta marvel:
+```docker
+cd ..
+```
+
+6. Inicie o ambiente Docker-compose:
 ```docker
 docker-compose up ou docker-compose up -d para rodar em nodemon
 ```
 
-6. Reinicie o serviço Node:
+7. Reinicie o serviço Node:
 Isso garante que a conexão entre a aplicação e o banco de dados ocorra de forma correta.
 ```docker
 docker restart app
