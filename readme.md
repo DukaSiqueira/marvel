@@ -6,15 +6,15 @@ Este projeto consiste em uma aplicação full-stack que oferece operações CRUD
 ## Telas
 ### Home
 - Essa tela lista seus pernsonagens favoritos, que podem ser escolhidos acessando a páginas de HERÓIS
-![image](https://github.com/DukaSiqueira/marvel/assets/53954835/b442d670-7b9e-45bd-8867-fb8795ca6b2f)
+![image](https://github.com/DukaSiqueira/marvel/assets/53954835/bc2fa95a-cb1b-427c-8307-fab989883926)
 
 ### Tela de Heróis
 - Essa tela lista os personagens dos quadrinhos da MARVEL. Integração feita utilizando API disponibilizada pela própria Marveç.
-![image](https://github.com/DukaSiqueira/marvel/assets/53954835/f6b7afeb-c90a-43fc-9594-99fd49765c86)
+![image](https://github.com/DukaSiqueira/marvel/assets/53954835/08bc15b2-b7dc-47f1-8151-76b62ec54eee)
 
 ### Tela de usuários
 - Essa tela lista os usuários e permite que os usuários sejam excluídos.
-![image](https://github.com/DukaSiqueira/marvel/assets/53954835/3710a392-abe9-4ffd-bb3d-4db10f1a833d)
+![image](https://github.com/DukaSiqueira/marvel/assets/53954835/a53b8309-1e96-4fef-8093-5c721e59a841)
 
 ## Requisitos
 
@@ -28,36 +28,31 @@ Este projeto consiste em uma aplicação full-stack que oferece operações CRUD
 git clone https://github.com/DukaSiqueira/marvel.git
 ```
 
-2. Acesse o repositório
+2. Acesse o repositório backend
 ```cmd
-cd marvel
+cd marvel/backend/
 ```
 
-3. Acesse o repositório
-```cmd
-cd backend
-```
-
-4. Instale as dependências do projeto
+3. Instale as dependências do projeto
 
 ```js
 npm install
 ```
 
-5. Volte a pasta marvel:
+4. Volte a pasta marvel:
 ```docker
 cd ..
 ```
 
-6. Inicie o ambiente Docker-compose:
+5. Inicie o ambiente Docker-compose:
 ```docker
 docker-compose up ou docker-compose up -d para rodar em nodemon
 ```
 
-7. Reinicie o serviço Node:
+6. Reinicie o serviço Node:
 Isso garante que a conexão entre a aplicação e o banco de dados ocorra de forma correta.
 ```docker
-docker restart app
+docker restart marvel-backend-1
 ```
 
 - O Serviço backend fica disponível em: http://localhost:5000
@@ -148,7 +143,6 @@ Além das operações CRUD de usuários, o frontend também inclui integração 
 |   |   |   |-- index.js
 |   |   |-- package-lock.json
 |   |   |-- package.json
-|
 
 ```
 
